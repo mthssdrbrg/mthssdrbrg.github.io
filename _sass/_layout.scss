@@ -1,0 +1,110 @@
+#container {
+  @include outer-container;
+
+  margin: 0 auto;
+  text-align: left;
+
+  header {
+    @include span-columns(12);
+
+    margin-top: 10em;
+
+    a#header-text {
+      text-decoration: none;
+      font-size: em(61);
+    }
+  }
+
+  #menu {
+    margin-bottom: 1em;
+
+    a {
+      color: $medium-gray;
+      margin: 0;
+      padding: 0.25em;
+      text-decoration: underline;
+
+      &:hover {
+        color: $black;
+        background-color: $highlight;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #content {
+    @include span-columns(12);
+  }
+
+  .post {
+    margin-bottom: 3em;
+    color: $black;
+    border-bottom: 1px dashed $medium-gray;
+    text-align: justify;
+
+    &:last-child {
+      margin-bottom: 2em;
+    }
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        background-color: $highlight;
+        text-decoration: none;
+      }
+    }
+
+    h3 {
+      font-size: em(21);
+      margin: 1em 0;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          padding: 0.25em;
+        }
+      }
+    }
+
+    p {
+      margin-top: em(12);
+      margin-bottom: em(12);
+    }
+
+    .meta {
+      margin: 1em 0;
+      color: $medium-gray;
+      text-align: left;
+
+      a {
+        margin: 0;
+        color: $medium-gray;
+        text-decoration: underline;
+        padding: 0.25em;
+
+        &:hover {
+          color: $black;
+          background-color: $highlight;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .pagination {
+    @include clearfix;
+
+    margin-bottom: 2em;
+
+    .older {
+      float: left;
+    }
+
+    .newer {
+      float: right;
+    }
+  }
+}
+
