@@ -1,0 +1,11 @@
+<div class="meta">
+  <span class="date">{{ include.date | date_to_string }}</span>
+  {% unless include.tags.size == 0 %}
+  <span> / </span>
+  <span class="tags">
+    {% for tag in include.tags %}
+    <a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %} {% endif %}
+    {% endfor %}
+  </span>
+  {% endunless %}
+</div>
