@@ -105,3 +105,16 @@
   }
 }
 
+#archives {
+  a {
+    padding: 0.25em;
+
+    &:hover {
+      background-color: $highlight;
+      text-decoration: none;
+    }
+  }
+  .indent {
+    margin-left: 0.5em;
+  }
+}
