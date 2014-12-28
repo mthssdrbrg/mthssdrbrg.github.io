@@ -2,3 +2,5 @@ gems: [bitters, bourbon, neat]
 permalink: /:year/:i_month/:i_day/:title.html
 exclude: [Gemfile, Gemfile.lock, README.md]
 paginate: 5
+sass:
+  style: :compressed
