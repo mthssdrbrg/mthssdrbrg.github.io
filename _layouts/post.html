@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  <div class="content">
+    {{ post.content }}
+  </div>
+  <div class="meta">
+    <span class="date">{{ page.date | date_to_string }}</span>
+    {% unless page.tags.size == 0 %}
+    <span> / </span>
+    <span class="tags">
+      {% for tag in page.tags %}
+      <a href="/tags/{{ tag }}.html" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %} {% endif %}
+      {% endfor %}
+    </span>
+    {% endunless %}
+  </div>
+</article>
