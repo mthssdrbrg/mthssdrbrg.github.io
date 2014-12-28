@@ -1,5 +1,4 @@
 ---
-layout: post
 title: neat github pages with bourbon and bitters
 tags: github bourbon neat bitters
 ---

@@ -3,3 +3,10 @@ exclude: [Gemfile, Gemfile.lock, README.md]
 paginate: 5
 sass:
   style: :compressed
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
