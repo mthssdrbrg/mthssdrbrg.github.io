@@ -1,6 +1,6 @@
 permalink: /:year/:i_month/:i_day/:title
 exclude: [Gemfile, Gemfile.lock, README.md]
-paginate: 5
+paginate: 3
 sass:
   style: :compressed
 defaults:

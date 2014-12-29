@@ -22,12 +22,10 @@
       color: $medium-gray;
       margin: 0;
       padding: 0.25em;
-      text-decoration: underline;
 
       &:hover {
         color: $black;
         background-color: $highlight;
-        text-decoration: none;
       }
     }
   }

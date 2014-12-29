@@ -1,11 +1,11 @@
 // Typography
-$sans-serif: 'Inconsolata', 'Monaco', 'monospace';
+$sans-serif: 'Lato', 'Helvetica', 'sans-serif';
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: .75em;
+$base-font-size: 1em;
 $h1-font-size: $base-font-size * 2.25;
 $h2-font-size: $base-font-size * 2;
 $h3-font-size: $base-font-size * 1.75;
