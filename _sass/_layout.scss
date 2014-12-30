@@ -116,3 +116,15 @@
     margin-left: 0.5em;
   }
 }
+
+.highlight {
+  padding: 0.2em;
+  border-radius: em(3);
+  background-color: $light-gray;
+  font-size: 90%;
+
+  pre {
+    margin: 0.5em;
+  }
+}
+
