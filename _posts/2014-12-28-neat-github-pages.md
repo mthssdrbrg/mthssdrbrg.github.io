@@ -49,4 +49,3 @@ I'd start with looking into `base/variables.scss` and `base/grid-settings.scss`.
 Given the "design" of this blog, using a grid framework and whatnot might seem a
 bit unnecessary, but I like experimenting with new toys and the best way, in my
 opinion, is to actually get something done.
-
