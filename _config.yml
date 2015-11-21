@@ -1,4 +1,4 @@
-permalink: /:year/:i_month/:i_day/:title
+permalink: /:year/:i_month/:i_day/:title/
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]
 paginate: 3
 gems: [jekyll-paginate]
