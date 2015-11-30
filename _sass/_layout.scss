@@ -7,7 +7,7 @@
   header {
     @include span-columns(12);
 
-    margin-top: 10em;
+    margin-top: 6em;
 
     a#header-text {
       text-decoration: none;
@@ -73,7 +73,7 @@
       color: $medium-gray;
       text-align: left;
 
-      a {
+      .tag {
         margin: 0;
         color: $medium-gray;
         text-decoration: underline;
@@ -130,4 +130,8 @@
 
 #disqus_thread {
   margin-top: -1em;
+}
+
+figure {
+  margin: 1em 0;
 }
