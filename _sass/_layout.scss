@@ -32,6 +32,16 @@
 
   #content {
     @include span-columns(12);
+
+    h3 {
+      font-size: em(21);
+      margin: 1em 0;
+
+      a {
+        text-decoration: none;
+        padding: 0.25em;
+      }
+    }
   }
 
   .post {
@@ -50,16 +60,6 @@
       &:hover {
         background-color: $highlight;
         text-decoration: none;
-      }
-    }
-
-    h3 {
-      font-size: em(21);
-      margin: 1em 0;
-
-      a {
-        text-decoration: none;
-        padding: 0.25em;
       }
     }
 
@@ -114,6 +114,17 @@
   }
   .indent {
     margin-left: 0.5em;
+  }
+}
+
+#four-oh-four {
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      background-color: $highlight;
+      text-decoration: none;
+    }
   }
 }
 
