@@ -27,7 +27,7 @@ Since GitHub runs `jekyll` with the `--safe` flag we'll need to install the
 stylesheets locally, which is done by running the following commands in the
 configured `sass_dir` (by default `_sass`):
 
-{% highlight bash %}
+{% highlight shell %}
 $ bourbon install
 $ neat install
 $ bitters install
