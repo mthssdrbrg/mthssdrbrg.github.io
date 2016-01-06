@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div id="tags">
+  <h4>posts tagged with "{{ page.title }}"</h4>
+  <ul>
+  {% for post in (page.posts | sort: 'date') %}
+    <li>
+      <span class="indent"> &gt; </span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+    </li>
+  {% endfor %}
+  </ul>
+</div>

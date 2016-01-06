@@ -4,7 +4,7 @@
   <span> / </span>
   <span class="tags">
     {% for tag in include.tags %}
-    <span class="tag">{{ tag }}</span>{% if forloop.last != true %} {% endif %}
+    <span class="tag"><a href="/tag/{{ tag }}/">{{ tag }}</a></span>{% unless forloop.last %} {% endunless %}
     {% endfor %}
   </span>
   {% endunless %}

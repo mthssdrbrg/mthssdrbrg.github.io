@@ -45,6 +45,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
     jekyll-compose (0.4.1)
       jekyll (>= 2.5.0)
     jekyll-paginate (1.1.0)
@@ -113,6 +115,7 @@ DEPENDENCIES
   bourbon
   html-proofer
   jekyll
+  jekyll-archives
   jekyll-compose
   jekyll-paginate
   neat

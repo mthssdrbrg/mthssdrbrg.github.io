@@ -1,7 +1,6 @@
 #container {
   @include outer-container;
 
-  margin: 0 auto;
   text-align: left;
 
   header {
@@ -73,10 +72,9 @@
       color: $medium-gray;
       text-align: left;
 
-      .tag {
+      a {
         margin: 0;
         color: $medium-gray;
-        text-decoration: underline;
         padding: 0.25em;
 
         &:hover {
@@ -103,7 +101,7 @@
   }
 }
 
-#archives {
+#archives, #tags {
   a {
     padding: 0.25em;
 
