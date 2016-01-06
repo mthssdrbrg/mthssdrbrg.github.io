@@ -2,6 +2,12 @@ permalink: /:year/:i_month/:i_day/:title/
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]
 paginate: 3
 gems: [jekyll-paginate]
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - tables
+    - no_intra_emphasis
+    - strikethrough
 sass:
   style: :compressed
 defaults:

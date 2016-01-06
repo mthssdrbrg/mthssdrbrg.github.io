@@ -17,30 +17,30 @@ Assuming you've got the `github-pages` gem installed and the basics already set
 up, the first step is to add the gems to your `Gemfile`, or just install them
 with `gem` if you're not using `Bundler`.
 
-{% highlight ruby %}
+```ruby
 gem 'bitters'
 gem 'neat'
 gem 'bourbon'
-{% endhighlight %}
+```
 
 Since GitHub runs `jekyll` with the `--safe` flag we'll need to install the
 stylesheets locally, which is done by running the following commands in the
 configured `sass_dir` (by default `_sass`):
 
-{% highlight shell %}
+```shell
 $ bourbon install
 $ neat install
 $ bitters install
-{% endhighlight %}
+```
 
 The last piece of the puzzle is to add some `@import` statements to our main
 SASS stylesheet, for example:
 
-{% highlight sass %}
+```sass
 @import "bourbon/bourbon";
 @import "base/base"; // bitters needs to be imported before neat
 @import "neat/neat";
-{% endhighlight %}
+```
 
 That's about it, now you should have a `jekyll` blog set up with `bourbon`,
 `neat` and `bitters`, ready to be customized to your liking.
