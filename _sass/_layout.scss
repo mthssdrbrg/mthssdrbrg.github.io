@@ -139,11 +139,13 @@
   }
 }
 
-code {
-  padding: 0.2em;
-  border-radius: em(3);
-  background-color: $light-gray;
-  font-size: 90%;
+p {
+  code {
+    padding: 0.2em;
+    border-radius: em(3);
+    background-color: $light-gray;
+    font-size: 90%;
+  }
 }
 
 #disqus_thread {
