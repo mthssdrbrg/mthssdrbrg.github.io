@@ -7,6 +7,7 @@ gem 'jekyll-paginate'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'redcarpet'
 
 group :development do
   gem 'travis'
