@@ -3,11 +3,15 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-paginate'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
 gem 'redcarpet'
+
+group :jekyll_plugins do
+  gem 'jekyll-paginate'
+  gem 'jekyll-compose'
+end
 
 group :development do
   gem 'travis'
