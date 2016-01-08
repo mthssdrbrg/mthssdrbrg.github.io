@@ -21,9 +21,9 @@
         <div id="menu">
           {% for link in site.data.menu.links %}
           <span><a href="{{ link[1] }}">{{ link[0] }}</a></span>
-          {% if forloop.last != true %}
+          {% unless forloop.last %}
           <span> / </span>
-          {% endif %}
+          {% endunless %}
           {% endfor %}
         </div>
       </header>
