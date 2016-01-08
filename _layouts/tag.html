@@ -4,9 +4,10 @@ layout: default
 <div id="tags">
   <h4>posts tagged with "{{ page.title }}"</h4>
   <ul>
-  {% for post in (page.posts | sort: 'date') %}
+  {% assign posts = (page.posts | sort: 'date') %}
+  {% for post in posts %}
     <li>
-      <span class="indent"> &gt; </span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+      {% include post_link.liquid post=post %}
     </li>
   {% endfor %}
   </ul>
