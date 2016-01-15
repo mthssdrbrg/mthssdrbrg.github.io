@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-archives'
   gem 'jekyll-compose'
+  gem 'jekyll-feed'
 end
 
 group :development do

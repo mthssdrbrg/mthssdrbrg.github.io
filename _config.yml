@@ -4,6 +4,7 @@ paginate: 3
 gems:
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-feed
 markdown: redcarpet
 redcarpet:
   extensions:
