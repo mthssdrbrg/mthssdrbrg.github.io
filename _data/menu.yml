@@ -1,5 +1,6 @@
 links:
   home: '/'
+  feed: '/feed.xml'
   archives: '/archives/'
   github: 'https://github.com/mthssdrbrg'
   twitter: 'https://twitter.com/mthssdrbrg'
