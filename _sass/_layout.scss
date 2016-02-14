@@ -97,21 +97,29 @@
       float: right;
     }
   }
-}
 
-#archives, #tags {
-  margin-top: 2em;
+  #archives, #tags {
+    margin-top: 2em;
 
-  a {
-    padding: 0.25em;
-
-    &:hover {
-      background-color: $highlight;
-      text-decoration: none;
+    h4 {
+      margin-bottom: 0.5em;
     }
-  }
-  .indent {
-    margin-left: 0.5em;
+
+    ul {
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      padding: 0.25em;
+
+      &:hover {
+        background-color: $highlight;
+        text-decoration: none;
+      }
+    }
+    .indent {
+      padding-left: 0.5em;
+    }
   }
 }
 
