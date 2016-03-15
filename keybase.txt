@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mthssdrbrg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sdrbrg.se
+  * I am mthssdrbrg (https://keybase.io/mthssdrbrg) on keybase.
+  * I have a public key with fingerprint 23C0 2015 D4FB 6319 5551  FBB8 860E C3B1 D837 621C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010777f590aa68b4cde532d73a98f8e4e6d08d7fe8725e9aa38ea886755436cd6e0a",
+            "fingerprint": "23c02015d4fb63195551fbb8860ec3b1d837621c",
+            "host": "keybase.io",
+            "key_id": "860ec3b1d837621c",
+            "kid": "01010777f590aa68b4cde532d73a98f8e4e6d08d7fe8725e9aa38ea886755436cd6e0a",
+            "uid": "98ba50c08ec7f7ee76834402a6d88900",
+            "username": "mthssdrbrg"
+        },
+        "service": {
+            "hostname": "sdrbrg.se",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458079875,
+    "expire_in": 157680000,
+    "prev": "167bf3c3a9aeac1f3e24c27813b218dda1e6b969f99f13ee52e122605913f7f8",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJJaBRBFJ1x4pYQkWhEREVag9sgXd3TXdXJQQ/uouASNSKM1dW/J22S
+7rG7s4zjJIEoiYcoghrXGBQ8qAdvRnHfd8HggpKIiiLuqKMiCFZHvXm06lDUr/de
+vff5F/MjodzwurKmGcMv9ZSGb5xrqw4tfdXSlBZ0x0gJxWmhAnoPqDTA8+MVliEU
+CyLiG2NsKppIqUr0GDNAkSUDy1QjJoEYqIZIDGwCwZICGqUyAUqIihUlJqvMUEGk
+QlQwLTsBbtK1bJ/LSjITJREpRszUVRlpiqIgU9c5TQQm68ggMlYlxDix3PECBjen
+Uw+mWA6v8Uu8194/8P/Zd3WvnEZ0qohMJMCwiQGwSuRYTJSoahCiiWIA9MC1aRVw
+dJVf7nmGq7sJIRMVeL3GYhC0NsjyB/P7fYoHnJp0Hd9hTiUvl/t+0isOaH4qGeBq
+QY//UYjrlm3wNnJGDbie5dhCMeJI5luBJIopRMQawUpUgLqk5ULcChAKNyvyFfwD
+NVwSqVg3ZcYbQYEyZMogxZiECZJ1CRHDoAhUXVM1U9NMJAMoEiBJUkVFQ7KJTSIE
+mdbYDtdG3CdNBHGshE39aheEzPmzK3NC4dxQv759gvkK5Q4c/HfqVpwYEDrR9uzL
+zsdzc+7P/HjzoX3h8630m+yyD2+vZPML89jz5iOT89cUxrfGd5XBnXVHMjexn727
+ITpJ3u3SPZWjGtt+puoarh3b2DmhYHpL6+Ef2+x2NnHvvJ8d+7+fOV0ztbXuamRV
+0aEznXOkBtbYPtJpWFv1/kHJweXZz11QNG6U8Ohul/Ctu33G5Rdj9oTHZjq3jBj/
+6ezyB5s6Hpe9Kdj3oW1ZqjbPyQ6Z1t387nr/3avfZpacvFf0/OR2VtpTuaNl/ehE
+qmBxxbDXg28flZ8qZGnJy82DIunmU/XR44sWLngyNFFY3lpvXppf2j8SmrMpZ/aA
+T7MKw+kDB66FJ5d9jYzVLg7t+gXWp0B4
+=sRgP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mthssdrbrg
+
+==================================================================
