@@ -1,5 +1,9 @@
 language: ruby
 sudo: false
+cache:
+  bundler: true
+  directories:
+    - _site
 rvm:
   - 2.2
 env:
@@ -8,7 +12,7 @@ env:
     - secure: "TLTnMxgi8iLysGC5T6G9JxR7lfmC+lq+0F8bLB+ZcpYI0PnCRiLSM6oXetEcXmHbxU050MCqg3GRHUUH6ajKhGaSfuHXD6ht34YY3gaQQEm0oyRq06nQ092aS2le8sN35o6quBD+4ziALKfT/7K94j2BcZSv4iCxcPvQ83z3piM=" # AWS_ACCESS_KEY_ID=...
     - secure: "Eh85vcFVmcNxEd7SGtyzdxM3DZXvvePFlybcj1QLFAORBYftbfzJET/qMZXyX5CGE7i7EBnGMaGvoGE8w/jysLC7rIeKr4hVxbEdPcWcfMiGwzhSrdp8Y3+NjPQ6kkY4Mhr2sbbCrf2whTf6uzOFnlCjSJ+FDl3c9e5MMX2U0YU=" # AWS_SECRET_ACCESS_KEY=...
 script:
-  - bundle exec jekyll build
+  - bundle exec jekyll build --incremental
   - bundle exec htmlproof ./_site --check-html
 deploy:
   provider: s3
