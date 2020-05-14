@@ -5,8 +5,8 @@ gems:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-feed
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
     - tables
     - no_intra_emphasis

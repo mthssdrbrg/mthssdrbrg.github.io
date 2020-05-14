@@ -4,7 +4,7 @@ layout: default
 <div id="tags">
   <h4>posts tagged with "{{ page.title }}"</h4>
   <ul>
-  {% assign posts = (page.posts | sort: 'date') %}
+  {% assign posts = page.posts | sort: 'date' %}
   {% for post in posts %}
     <li>
       {% include post_link.liquid post=post %}
