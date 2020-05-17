@@ -11,7 +11,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 script:
 - bundle exec jekyll build --incremental
-- bundle exec htmlproof ./_site --check-html
+- bundle exec htmlproofer ./_site --check-html
 deploy:
   provider: s3
   access_key_id: AKIARZKE6SGHLRJEBJDP
