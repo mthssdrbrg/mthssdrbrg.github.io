@@ -15,10 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
 end
 
-group :development do
-  gem 'travis'
-end
-
 group :test do
   gem 'html-proofer'
 end
