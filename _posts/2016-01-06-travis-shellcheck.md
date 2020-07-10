@@ -24,10 +24,10 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install shellcheck -y
 script:
-  - shellcheck <FILENAME>
+  - shellcheck $FILENAME
 ```
 
-`<FILENAME>` could also be replaced with a glob or something like `$(find . -maxdepth 1
+`$FILENAME` could also be replaced with a glob or something like `$(find . -maxdepth 1
 -type f -executable)` if you have several files that needs to be checked.
 
 Speaking of shell scripts, I sometimes find myself returning to Thoughtbot's
