@@ -4,8 +4,9 @@ tags: terraform linux systemd network-namespaces wireguard
 ---
 
 For _reasons_, my current ISP has this funny hard limit of 2000 connections per device, and when you hit the limit you
-get locked out of the network and need to "re-authenticate" to get back on, which typically includes logging into their
-"portal" from a different device and removing the offending device and reconnecting.
+get locked out of the network and fittingly enough you're presented with a page that states that "you've been
+quarantined" and need to "re-authenticate" to get back on, which typically includes logging into their portal from a
+different device and removing the offending device and reconnecting.
 
 This has generally not been an issue for me, I first hit the limit one day when I was messing around and running
 `terraform plan` in multiple (fairly large) environments, and didn't bother too much about it.
