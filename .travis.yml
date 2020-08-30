@@ -12,16 +12,3 @@ env:
 script:
 - bundle exec jekyll build --incremental
 - bundle exec htmlproofer ./_site --check-html
-deploy:
-  provider: s3
-  access_key_id: AKIARZKE6SGHLRJEBJDP
-  secret_access_key:
-    secure: BBlACqqZuIj/TuV7tVG44fnFjuEhbpRbyq7gTNqV7BGWnpJl9dZQQrpLg5mXl/cwzBsjImDNxZNj5q0pg8hGfPp1zWOc4jxXC62eyLpeXO0ELOCDefMmspmMKOebJPjQnz1BzQkhZEp2Sg6Q6K+gjyFYPUNPfYSDQ5jvuoENVhU=
-  bucket: sdrbrg.se
-  local-dir: _site
-  acl: public_read
-  region: eu-west-1
-  skip_cleanup: 'true'
-  on:
-    repo: mthssdrbrg/sdrbrg.se
-    branch: master
