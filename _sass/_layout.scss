@@ -1,16 +1,16 @@
 #container {
-  @include outer-container;
+  @include grid-container;
+  @include grid-shift(4 of 12);
+  @include grid-column(4 of 12);
 
   text-align: left;
 
   header {
-    @include span-columns(12);
-
     margin-top: 1em;
 
     a#header-text {
       text-decoration: none;
-      font-size: em(50);
+      font-size: 3.15em;
     }
   }
 
@@ -28,10 +28,8 @@
   }
 
   #content {
-    @include span-columns(12);
-
     h3 {
-      font-size: em(21);
+      font-size: 1.25em;
 
       a {
         text-decoration: none;
@@ -61,8 +59,8 @@
     }
 
     p {
-      margin-top: em(12);
-      margin-bottom: em(12);
+      margin-top: 0.75em;
+      margin-bottom: 0.75em;
     }
 
     .meta {
@@ -136,7 +134,7 @@
 
 .highlight {
   padding: 0.2em;
-  border-radius: em(3);
+  // border-radius: em(3);
   background-color: $light-gray;
   font-size: 95%;
 
@@ -148,7 +146,7 @@
 p {
   code {
     padding: 0.2em;
-    border-radius: em(3);
+    // border-radius: em(3);
     background-color: $light-gray;
     font-size: 95%;
   }

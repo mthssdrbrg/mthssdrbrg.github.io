@@ -1,24 +1,29 @@
 table {
   border-collapse: collapse;
-  margin: ($base-spacing / 2) 0;
+  margin: var(--spacing) 0;
   table-layout: fixed;
+  text-align: left;
   width: 100%;
 }
 
-th {
-  border-bottom: 1px solid darken($base-border-color, 15);
-  font-weight: bold;
-  padding: ($base-spacing / 2) 0;
-  text-align: left;
+thead {
+  line-height: var(--line-height--heading);
+  vertical-align: bottom;
 }
 
+tbody {
+  vertical-align: top;
+}
+
+tr {
+  border-bottom: var(--border);
+}
+
+th {
+  font-weight: 600;
+}
+
+th,
 td {
-  border-bottom: $base-border;
-  padding: ($base-spacing / 2) 0;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
+  padding: var(--spacing--small) var(--spacing--small) var(--spacing--small) 0;
 }
