@@ -15,8 +15,7 @@ kramdown:
 sass:
   style: :compressed
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
