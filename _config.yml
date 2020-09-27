@@ -12,10 +12,9 @@ kramdown:
     - no_intra_emphasis
     - strikethrough
 sass:
-  style: :compressed
+  style: compressed
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
