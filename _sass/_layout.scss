@@ -119,15 +119,18 @@
       padding-left: 0.5em;
     }
   }
-}
 
-#four-oh-four {
-  a {
-    text-decoration: underline;
+  #four-oh-four {
+    margin-top: 2em;
+    margin-bottom: 1em;
 
-    &:hover {
-      background-color: $highlight;
-      text-decoration: none;
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        background-color: $highlight;
+        text-decoration: none;
+      }
     }
   }
 }
