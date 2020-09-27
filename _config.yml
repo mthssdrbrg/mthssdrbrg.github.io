@@ -5,6 +5,7 @@ gems:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-feed
+  - jekyll-seo-tag
 markdown: kramdown
 kramdown:
   extensions:
