@@ -1,5 +1,6 @@
 language: ruby
-sudo: false
+os: linux
+dist: focal
 cache:
   bundler: true
   directories:
