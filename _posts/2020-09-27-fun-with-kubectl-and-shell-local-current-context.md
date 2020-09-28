@@ -1,5 +1,5 @@
 ---
-title: Fun with kubectl and (shell-)local current-context(s)
+title: fun with kubectl and (shell-)local current-context(s)
 tags: kubernetes kubectl current-context shell fish oddity
 date: 2020-09-27 13:55 +0100
 ---

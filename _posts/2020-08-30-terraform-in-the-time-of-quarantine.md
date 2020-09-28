@@ -1,5 +1,5 @@
 ---
-title: Terraform in the time of quarantine
+title: terraform in the time of quarantine
 tags: terraform linux systemd network-namespaces wireguard
 ---
 
