@@ -1,6 +1,6 @@
 ---
 title: "bash: abort script on any error"
-tags: bash
+tags: bash shell
 ---
 
 For the longest of time it's been my understanding that `set -e` in Bash causes a script to terminate if any single command of the script fails, which is also exactly what it does, in most cases.

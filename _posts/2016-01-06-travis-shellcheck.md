@@ -1,6 +1,6 @@
 ---
 title: checking shell scripts on travis
-tags: bash travis testing shellcheck
+tags: shell bash travis testing shellcheck
 ---
 
 Whenever I write shell scripts (usually in Bash) I find it a good practice to
