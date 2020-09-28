@@ -1,6 +1,6 @@
 ---
 title: neat github pages with bourbon and bitters
-tags: github bourbon neat bitters
+tags: github bourbon neat bitters css
 ---
 
 Several times during this past year I've thought to myself that maybe I should
