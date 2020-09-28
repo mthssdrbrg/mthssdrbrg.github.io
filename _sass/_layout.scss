@@ -161,6 +161,7 @@ $normal-screen: (
   font-size: 95%;
 
   pre {
+    font-family: $font-stack-consolas;
     margin: 0.5em;
     overflow: auto;
   }
