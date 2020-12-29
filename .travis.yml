@@ -12,4 +12,4 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 script:
 - bundle exec jekyll build --incremental
-- bundle exec htmlproofer ./_site --check-html
+- bundle exec htmlproofer ./_site --check-html --url-ignore /twitter.com\/mthssdrbrg/
