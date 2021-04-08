@@ -1,0 +1,24 @@
+name: build
+on: [push, pull_request]
+jobs:
+  build:
+    name: site
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: cache-jekyll
+      uses: actions/cache@v2
+      with:
+        path: |
+          _site
+          .jekyll-cache
+        key: cache-jekyll
+    - name: setup
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - name: build
+      run: bundle exec jekyll build --incremental
+    - name: htmlproofer
+      run: bundle exec htmlproofer ./_site --check-html --url-ignore /twitter.com\/mthssdrbrg/
