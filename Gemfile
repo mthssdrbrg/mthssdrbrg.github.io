@@ -2,11 +2,11 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.x'
 gem 'bitters', '= 2.0.3'
-gem 'bourbon', '~> 6.0'
-gem 'neat', '~> 4.0'
-gem 'redcarpet'
+gem 'bourbon', '~> 6.x'
+gem 'neat', '~> 4.x'
+gem 'redcarpet', '~> 3.x'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
@@ -17,5 +17,5 @@ group :jekyll_plugins do
 end
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 3.x'
 end
