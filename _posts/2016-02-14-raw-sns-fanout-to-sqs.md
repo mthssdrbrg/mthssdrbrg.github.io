@@ -5,7 +5,7 @@ tags: aws sns sqs
 
 The other day I was messing around a bit with AWS SNS and SQS, more specifically I
 wanted to send messages to a SNS topic and have the messages fanout to a couple
-of SQS queues (as mentioned in the [Common SNS Scenarios](http://docs.aws.amazon.com/sns/latest/dg/SNS_Scenarios.html)
+of SQS queues (as mentioned in the [Common SNS Scenarios](https://docs.aws.amazon.com/sns/latest/dg/SNS_Scenarios.html)
 documentation).
 
 It's simple enough to connect a SNS topic with a SQS queue:
