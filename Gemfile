@@ -2,9 +2,9 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.x'
 gem 'bitters', '~> 2.x'
 gem 'bourbon', '~> 6.x'
+gem 'jekyll', '~> 4.x'
 gem 'neat', '~> 4.x'
 gem 'redcarpet', '~> 3.x'
 
