@@ -100,7 +100,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitters (= 2.0.3)
+  bitters (~> 2.x)
   bourbon (~> 6.x)
   html-proofer (~> 3.x)
   jekyll (~> 4.x)
